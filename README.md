@@ -23,7 +23,7 @@ Bu proje `src/components` klasörü içinde bir kaç React bileşeni(component) 
 - [x] Terminali kullanarak kendi forkunuzu klonlayın.
 - [x] Projenin ana klasörüne gidin.
 - [x] `npm install` komutunu kullanarak projenin dependencylerini indirin.  
-      NOT: Tavsiye edilen `node version 18` ile kurulum yapabilirsiniz.
+       NOT: Tavsiye edilen `node version 18` ile kurulum yapabilirsiniz.
 - [x] `npm start` komutuyla projeyi başlatın.
 - [x] `npm test` komutuyla projeyi test edebilirsiniz. (uygulamanın `http://localhost:1234` 'da çalışıyor halde olması lazım)
 - [x] Commitinizi pushlayın: `git push origin main`.
@@ -36,9 +36,9 @@ Bu proje `src/components` klasörü içinde bir kaç React bileşeni(component) 
 
 #### Adımlar
 
-- [ ] `src/components` içindeki tüm bileşenlere işlevsellik katacaksınız.
-- [ ] Bileşenler üzerinde **Chrome'da görüntülendikleri sırayla** çalışın (kolaydan zora doğru).
-- [ ] Her dosya bir video bağlantısı ve şu şekilde özetlenebilecek bir dizi talimat içerir:
+- [x] `src/components` içindeki tüm bileşenlere işlevsellik katacaksınız.
+- [x] Bileşenler üzerinde **Chrome'da görüntülendikleri sırayla** çalışın (kolaydan zora doğru).
+- [x] Her dosya bir video bağlantısı ve şu şekilde özetlenebilecek bir dizi talimat içerir:
   - Bitmiş bileşenin demosunun videosunu izleyin ve ne kadar state'e ihtiyaç duyulduğunu düşünün.
   - State hook'u kullanarak gerekli bileşen statelerini oluşturun.
   - JSX'i sabit kodlanmış veriler yerine durumdan türetilen bilgileri gösterecek şekilde düzeltin.
