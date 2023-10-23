@@ -29307,9 +29307,8 @@ function Kareler() {
     // Bu bir _satır içinden çağırılmış_ click handler yardımcısıdır.
     // id bağımsız değişkenini, stateteki aktif id olacak şekilde ayarlayın
     // eğer zaten aktifse, o zaman önce state i resetlemeliyiz.
-
-    return aktifKare === id ? setAktifKare("") : setAktifKare(id);
     console.log(aktifKare);
+    return aktifKare === id ? setAktifKare("") : setAktifKare(id);
   };
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "widget-squares container"
