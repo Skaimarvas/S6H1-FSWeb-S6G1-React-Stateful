@@ -81,7 +81,6 @@ export default function Programcilar() {
                 onClick={() => {
                   /* burada dev.id 'yi öne çıkan id'ye atayın */
                   setOnecikan(dev.id);
-                  console.log("onClick", dev.id);
                 }}
               >
                 Kutla

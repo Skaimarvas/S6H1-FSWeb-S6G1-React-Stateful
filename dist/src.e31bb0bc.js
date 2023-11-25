@@ -28985,7 +28985,7 @@ function Sayac() {
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Saya\xE7"), /*#__PURE__*/_react.default.createElement("div", {
     id: "sayici",
     style: sayici % 2 === 0 ? stil : stil2
-  }, "Say\u0131 ", sayici, " ", sayici % 2 === 0 ? "Çifttir" : "Tektir"), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", {
+  }, "Say\u0131 ", sayici, " ", sayici % 2 === 0 ? "Çift" : "Tek"), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", {
     id: "artirici",
     onClick: artirici
   }, "Art\u0131r\u0131c\u0131"), /*#__PURE__*/_react.default.createElement("button", {
@@ -29056,7 +29056,7 @@ function Input() {
     // When the input changes, its whole value can be found inside the event object.
     // Log out the synthetic event object 'evt' and see for yourself.
     var value = evt.target.value;
-    var buyukHarfInput = value.toUpperCase();
+    var buyukHarfInput = value;
     setInputDegeri(buyukHarfInput);
 
     /* ADIM 4 */
@@ -29081,8 +29081,8 @@ function Input() {
     className: "widget-input container"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Input"), /*#__PURE__*/_react.default.createElement("div", {
     id: "output",
-    style: inputDegeri.length < 10 ? stil2 : stil
-  }, inputDegeri), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("input", {
+    style: inputDegeri.length <= 10 ? stil2 : stil
+  }, inputDegeri.toUpperCase()), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("input", {
     id: "input",
     type: "text",
     value: inputDegeri,
@@ -29453,7 +29453,6 @@ function Programcilar() {
       onClick: function onClick() {
         /* burada dev.id 'yi öne çıkan id'ye atayın */
         setOnecikan(dev.id);
-        console.log("onClick", dev.id);
       }
     }, "Kutla"));
   })), /*#__PURE__*/_react.default.createElement("div", {
