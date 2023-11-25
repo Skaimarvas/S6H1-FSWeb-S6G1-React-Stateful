@@ -47,6 +47,7 @@ export default function Input() {
     const { value } = evt.target;
     const buyukHarfInput = value.toUpperCase();
     setInputDegeri(buyukHarfInput);
+
     /* ADIM 4 */
   };
   const reset = () => {
@@ -74,7 +75,12 @@ export default function Input() {
       </div>
       {/* ADIM 3 */}
       <div>
-        <input id="input" type="text" onChange={inputuDeğiştir} />{" "}
+        <input
+          id="input"
+          type="text"
+          value={inputDegeri}
+          onChange={inputuDeğiştir}
+        />{" "}
         {/* ADIM 6 */}
         <button id="resetInput" onClick={reset}>
           Reset

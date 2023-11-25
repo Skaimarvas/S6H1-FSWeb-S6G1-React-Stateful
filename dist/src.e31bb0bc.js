@@ -29058,6 +29058,7 @@ function Input() {
     var value = evt.target.value;
     var buyukHarfInput = value.toUpperCase();
     setInputDegeri(buyukHarfInput);
+
     /* ADIM 4 */
   };
 
@@ -29084,6 +29085,7 @@ function Input() {
   }, inputDegeri), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("input", {
     id: "input",
     type: "text",
+    value: inputDegeri,
     onChange: inputuDeğiştir
   }), " ", /*#__PURE__*/_react.default.createElement("button", {
     id: "resetInput",
@@ -29503,7 +29505,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52615" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62541" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
